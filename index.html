@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BEM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header-->
+    <header class="header">
+        <div class="header__body">
+            <!--Logo-->
+            <div class="logo">
+                <img class="logo__image" src="./img/logo/logo.svg" alt="Logo">
+            </div>
+            <!--Navigation-->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li nav="nav__item">
+                        <a href="" class="nav__link">Home</a>
+                    </li>
+                    <li nav="nav__item">
+                        <a href="" class="nav__link">services</a>
+                    </li>
+                    <li nav="nav__item">
+                        <a href="" class="nav__link nav__link_active">About</a>
+                    </li>
+                    <li nav="nav__item">
+                        <a href="" class="nav__link">contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--Button-->
+            <div class="button">
+                <button class="button__type" type="button">callback</button>
+            </div>
+        </div>
+    </header>
+    <!--Section Who We Are   -->
+    <section class="about">
+        <div class="about__body">
+            <div class="about__header">
+                <h1 class="about__title title">who we are</h1>
+                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="about__row">
+                <div class="about__column">
+                    <div class="item-employee">
+                        <div class="item-employee__wrapper">
+                            <img class="item-employee__image" src="./img/about/JohnHandson.jpg" alt="John Handson photo">
+                            <div class="social-icon">
+                                <div class="social-icon-wrapper">
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/twitter_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/twitter_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/facebook_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/facebook_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/instagram_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/instagram_hover.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="item-employee__title">John Handson</h2>
+                        <span class="item-employee__text">Lead designer</span>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="item-employee">
+                        <div class="item-employee__wrapper">
+                            <img class="item-employee__image" src="./img/about/JohnHandson.jpg" alt="Alex Cutter photo">
+                            <div class="social-icon">
+                                <div class="social-icon-wrapper">
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/twitter_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/twitter_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/facebook_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/facebook_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/instagram_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/instagram_hover.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="item-employee__title">Alex Cutter</h2>
+                        <span class="item-employee__text">Developer</span>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="item-employee">
+                        <div class="item-employee__wrapper">
+                            <img class="item-employee__image" src="./img/about/ElenaSimpson.jpg" alt="Elena Simpson photo">
+                            <div class="social-icon">
+                                <div class="social-icon-wrapper">
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/twitter_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/twitter_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/facebook_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/facebook_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/instagram_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/instagram_hover.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="item-employee__title">Elena Simpson</h2>
+                        <span class="item-employee__text">Artist</span>
+                    </div>
+                </div>
+                <div class="about__column">
+                    <div class="item-employee">
+                        <div class="item-employee__wrapper">
+                            <img class="item-employee__image" src="./img/about/LilyAllen.png" alt="Lily Allen photo">
+                            <div class="social-icon">
+                                <div class="social-icon-wrapper">
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/twitter_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/twitter_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/facebook_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/facebook_hover.svg" alt="">
+                                    </a>
+                                    <a href="social-icon__link">
+                                        <img class="social-icon__img" src="./img/about/instagram_default.svg" alt="">
+                                        <img class="social-icon__img_hover" src="./img/about/instagram_hover.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="item-employee__title">Lily Allen</h2>
+                        <span class="item-employee__text">Graphic Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="logo">
+                <img class="logo__image" src="./img/logo/logo.svg" alt="Logo">
+            </div>
+            <nav class="nav nav-footer">
+                <ul class="nav__list">
+                    <li nav="nav__item ">
+                        <a href="" class="nav__link">Home</a>
+                    </li>
+                    <li nav="nav__item">
+                        <a href="" class="nav__link">services</a>
+                    </li>
+                    <li nav="nav__item">
+                        <a href="" class="nav__link nav__link_active">About</a>
+                    </li>
+                    <li nav="nav__item">
+                        <a href="" class="nav__link">contacts</a>
+                    </li>
+                </ul>
+            </nav>
+                <div class="social-icon-wrapper footer-icon">
+                    <a href="social-icon__link">
+                        <img class="social-icon__img" src="./img/footer/twitter.svg" alt="">
+                        <img class="social-icon__img_hover" src="./img/footer/twitter_hover.svg" alt="">
+                    </a>
+                    <a href="social-icon__link">
+                        <img class="social-icon__img" src="./img/footer/facebook.svg" alt="">
+                        <img class="social-icon__img_hover" src="./img/footer/facebook_hover.svg" alt="">
+                    </a>
+                    <a href="social-icon__link">
+                        <img class="social-icon__img" src="./img/footer/instagram.svg" alt="">
+                        <img class="social-icon__img_hover" src="./img/footer/instagram_hover.svg" alt="">
+                    </a>
+                    <a href="social-icon__link">
+                        <img class="social-icon__img" src="./img/footer/linkedin.svg" alt="">
+                        <img class="social-icon__img_hover" src="./img/footer/linkedin_hover.svg" alt="">
+                    </a>
+                    <a href="social-icon__link">
+                        <img class="social-icon__img" src="./img/footer/telegram.svg" alt="">
+                        <img class="social-icon__img_hover" src="./img/footer/telegram_hover.svg" alt="">
+                    </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
